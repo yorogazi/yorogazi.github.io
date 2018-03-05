@@ -1,0 +1,43 @@
+title: 여러가지 이야기
+logo: "/images/spots.gif"
+#https://reygif.com/gif/dance-dancing-l0Iyb2pEevoDThkFW
+#https://giphy.com/gifs/digital-art-trippy-visuals-geometric-26ueZDPcBr2BttN3W
+skin: "assets/css/skins/dark.css"
+email: janghyuk.cha@gmail.com
+description: Various stories what I want to record.
+url: "yorogazi.github.io"
+#twitter_username: someone
+github_username:  yorogazi
+
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+plugins:
+  - jekyll-feed
+
+search_full_content: true
+
+footer_links:
+  - title: Home
+    url: /
+    icon: fas fa-home
+    #iicon: fas fa-house-user
+  - title: Categories
+    url: /categories
+    icon: fas fa-list-alt
+    #icon: far fa-list-alt
+  - title: Tags
+    url: /tags
+    icon: fas fa-tag
+    #icon: fas fa-tags
+  - title: Search
+    url: /search
+    icon: fas fa-search
+  - title: Me
+    url: /about
+    icon: fas fa-user-astronaut
+    #icon: fas fa-user-circle
+  #- title: GitHub
+  #  url: https://github.com/yorogazi
+  #  icon: fab fa-github-square
