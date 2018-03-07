@@ -15,8 +15,13 @@ markdown: kramdown
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
+paginate: 6
+paginate_path: "/page:num/"
 search_full_content: true
+category_archive_path: "/categories/"
+tag_archive_path: "/tags/#"
 
 footer_links:
   - title: Home
