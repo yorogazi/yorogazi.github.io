@@ -46,3 +46,17 @@ footer_links:
   #- title: GitHub
   #  url: https://github.com/yorogazi
   #  icon: fab fa-github-square
+
+google_fonts:
+  - name: "Hahmlet"
+    weights: "100,100i,400,400i"
+  - name: "Noto Serif Korean"
+    weights: "200,200i,400,400i"
+  - name: "IBM Plex Sans KR"
+    weights: "100,100i,300,300i"
+  - name: "Monoton" #여러줄 
+    weights: "400,400i,400,400i"
+  - name: "Faster One" #주변 여러줄 
+    weights: "400,400i,400,400i"
+  - name: "Rubik Beastly" #반짝이는 모양
+    weights: "400,400i,400,400i"
