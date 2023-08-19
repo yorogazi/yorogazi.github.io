@@ -1,0 +1,62 @@
+title: 여러가지 이야기
+logo: "/images/spots.gif"
+#https://reygif.com/gif/dance-dancing-l0Iyb2pEevoDThkFW
+#https://giphy.com/gifs/digital-art-trippy-visuals-geometric-26ueZDPcBr2BttN3W
+skin: "assets/css/skins/dark.css"
+email: janghyuk.cha@gmail.com
+description: Various stories what I want to record.
+url: "yorogazi.github.io"
+#twitter_username: someone
+github_username:  yorogazi
+
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/page:num/"
+search_full_content: true
+category_archive_path: "/categories/"
+tag_archive_path: "/tags/#"
+
+footer_links:
+  - title: Home
+    url: /
+    icon: fas fa-home
+    #iicon: fas fa-house-user
+  - title: Categories
+    url: /categories
+    icon: fas fa-list-alt
+    #icon: far fa-list-alt
+  - title: Tags
+    url: /tags
+    icon: fas fa-tag
+    #icon: fas fa-tags
+  - title: Search
+    url: /search
+    icon: fas fa-search
+  - title: Me
+    url: /about
+    icon: fas fa-user-astronaut
+    #icon: fas fa-user-circle
+  #- title: GitHub
+  #  url: https://github.com/yorogazi
+  #  icon: fab fa-github-square
+
+google_fonts:
+  - name: "Hahmlet"
+    weights: "100,100i,400,400i"
+  - name: "Noto Serif Korean"
+    weights: "200,200i,400,400i"
+  - name: "IBM Plex Sans KR"
+    weights: "100,100i,300,300i"
+  - name: "Monoton" #여러줄 
+    weights: "400,400i,400,400i"
+  - name: "Faster One" #주변 여러줄 
+    weights: "400,400i,400,400i"
+  - name: "Rubik Beastly" #반짝이는 모양
+    weights: "400,400i,400,400i"
